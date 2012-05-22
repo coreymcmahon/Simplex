@@ -43,3 +43,9 @@ In this lesson we learn how to install [Composer](http://getcomposer.org/), a pa
 Next, we use the Symfony2 HTTP foundation library to provide an abstraction over the HTTP layer.
 
 [The lesson](http://fabien.potencier.org/article/51/create-your-own-framework-on-top-of-the-symfony2-components-part-2)
+
+
+## Part 3 - Implementing the "Front Controller"
+To provide more control over the flow of requests into and throughout our framework, we implement a "front controller." This involves creating a class through which all requests are routed. We also start to use templating to provide more flexibility in the view layer of our framework.
+
+[The lesson](http://fabien.potencier.org/article/52/create-your-own-framework-on-top-of-the-symfony2-components-part-3)
