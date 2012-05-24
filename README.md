@@ -49,3 +49,10 @@ Next, we use the Symfony2 HTTP foundation library to provide an abstraction over
 To provide more control over the flow of requests into and throughout our framework, we implement a "front controller." This involves creating a class through which all requests are routed. We also start to use templating to provide more flexibility in the view layer of our framework.
 
 [The lesson](http://fabien.potencier.org/article/52/create-your-own-framework-on-top-of-the-symfony2-components-part-3)
+
+
+## Part 4 - Introducing the Routing component
+Now that we have a front-controller and a method of abstracting the flow of HTTP requests and responses through our application, we can start to decouple the format of URLs from the flow of control. We do this using the Symfony 2 Routing component.
+
+[The lesson](http://fabien.potencier.org/article/53/create-your-own-framework-on-top-of-the-symfony2-components-part-4)
+
