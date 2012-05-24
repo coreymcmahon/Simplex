@@ -62,5 +62,5 @@ We now have a pretty solid base for our framework. We have an abstraction over t
 
 Note that the end of the lesson introduces a new application for calculating whether or not the current year is a "leap year" or not. This new application is tagged as "5.1" in the repository (the previous application modified to include controllers as discussed in the previous paragraph is tagged as "5.0").
 
-[The lesson](http://fabien.potencier.org/article/53/create-your-own-framework-on-top-of-the-symfony2-components-part-4)
+[The lesson](http://fabien.potencier.org/article/54/create-your-own-framework-on-top-of-the-symfony2-components-part-5)
 
