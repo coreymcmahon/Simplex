@@ -11,7 +11,7 @@ class Framework {
 	protected $_matcher;
 	protected $_resolver;
 	
-	public function __construct(Routing\Matcher\UrlMatcher $matcher, HttpKernel\Controller\ControllerResolver $resolver)
+	public function __construct(Routing\Matcher\UrlMatcherInterface $matcher, HttpKernel\Controller\ControllerResolverInterface $resolver)
 	{
 		$this->_matcher = $matcher;
 		$this->_resolver = $resolver;
