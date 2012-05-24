@@ -69,3 +69,9 @@ Note that the end of the lesson introduces a new application for calculating whe
 In this lesson the Symfony 2 HTTP Kernel is introduced so that Controllers can be "lazy-loaded" when defining our routes. This means that instead of having to instantiate instances of each controller class when defining routes _just in case_ we need it to service the current request, we can use the HTTP Kernel to work out which controller is going to be used and then create an instance of that single class.
 
 [The lesson](http://fabien.potencier.org/article/55/create-your-own-framework-on-top-of-the-symfony2-components-part-6)
+
+
+## Part 7 - Moving towards MVC
+In part 7 we create our own namespace for our evolving framework and split up the components according to the model view controller design pattern.
+
+[The lesson](http://fabien.potencier.org/article/56/create-your-own-framework-on-top-of-the-symfony2-components-part-7)
