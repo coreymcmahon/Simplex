@@ -64,3 +64,8 @@ Note that the end of the lesson introduces a new application for calculating whe
 
 [The lesson](http://fabien.potencier.org/article/54/create-your-own-framework-on-top-of-the-symfony2-components-part-5)
 
+
+## Part 6 - Using the Symfony 2 HTTP Kernel
+In this lesson the Symfony 2 HTTP Kernel is introduced so that Controllers can be "lazy-loaded" when defining our routes. This means that instead of having to instantiate instances of each controller class when defining routes _just in case_ we need it to service the current request, we can use the HTTP Kernel to work out which controller is going to be used and then create an instance of that single class.
+
+[The lesson](http://fabien.potencier.org/article/55/create-your-own-framework-on-top-of-the-symfony2-components-part-6)
