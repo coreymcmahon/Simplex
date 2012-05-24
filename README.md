@@ -77,7 +77,7 @@ In part 7 we create our own namespace for our evolving framework and split up th
 [The lesson](http://fabien.potencier.org/article/56/create-your-own-framework-on-top-of-the-symfony2-components-part-7)
 
 
-## Part 8 - 
+## Part 8 - Adding Tests with PHPUnit
 At this point we have a fully functioning MVC framework, built using the Symfony 2 components. Before we do any further work on developing the framework, it's time to step back and write some tests for the existing code using the PHPUnit framework.
 
 [The lesson](http://fabien.potencier.org/article/57/create-your-own-framework-on-top-of-the-symfony2-components-part-8)
