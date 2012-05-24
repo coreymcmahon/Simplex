@@ -60,5 +60,7 @@ Now that we have a front-controller and a method of abstracting the flow of HTTP
 ## Part 5 - Adding Controllers
 We now have a pretty solid base for our framework. We have an abstraction over the HTTP layer, all requests are handled by our internal application logic via the front controller (as opposed to the web server responding to requests for specific resources) and we have a robust mechanism for handling routing URL requests to relevant response objects. The next step is to break out the logic responsible for creating responses into separate units known as **controllers**. 
 
+Note that the end of the lesson introduces a new application for calculating whether or not the current year is a "leap year" or not. This new application is tagged as "5.1" in the repository (the previous application modified to include controllers as discussed in the previous paragraph is tagged as "5.0").
+
 [The lesson](http://fabien.potencier.org/article/53/create-your-own-framework-on-top-of-the-symfony2-components-part-4)
 
