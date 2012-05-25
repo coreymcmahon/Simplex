@@ -19,6 +19,8 @@ class FrameworkTest extends \PHPUnit_Framework_TestCase
 	
 	protected function getFrameworkForException($exception)
 	{
+		$dispatcher = $this->getMock('Symfony\Component\EventDispatcher\EventDispatcherInterface');
+
 		$matcher = $this->getMock('Symfony\Component\Routing\Matcher\UrlMatcherInterface');
 		$matcher
 			->expects($this->once())
@@ -27,11 +29,13 @@ class FrameworkTest extends \PHPUnit_Framework_TestCase
 		;
 		$resolver = $this->getMock('Symfony\Component\HttpKernel\Controller\ControllerResolverInterface');
 		
-		return new Framework($matcher, $resolver);
+		return new Framework($dispatcher, $matcher, $resolver);
 	}
 	
 	public function testControllerResponse()
 	{
+		$dispatcher = $this->getMock('Symfony\Component\EventDispatcher\EventDispatcherInterface');
+
 		$matcher = $this->getMock('Symfony\Component\Routing\Matcher\UrlMatcherInterface');
 		$matcher
 			->expects($this->once())
@@ -46,7 +50,7 @@ class FrameworkTest extends \PHPUnit_Framework_TestCase
 		;
 		$resolver = new HttpKernel\Controller\ControllerResolver();
 
-		$framework = new Framework($matcher, $resolver);
+		$framework = new Framework($dispatcher, $matcher, $resolver);
 		
 		$response = $framework->handle(new Request());
 		
