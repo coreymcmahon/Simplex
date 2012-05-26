@@ -81,3 +81,9 @@ In part 7 we create our own namespace for our evolving framework and split up th
 At this point we have a fully functioning MVC framework, built using the Symfony 2 components. Before we do any further work on developing the framework, it's time to step back and write some tests for the existing code using the PHPUnit framework.
 
 [The lesson](http://fabien.potencier.org/article/57/create-your-own-framework-on-top-of-the-symfony2-components-part-8)
+
+
+## Part 9 - Using the Event Dispatcher
+In this lesson we learn how to make our framework extensible by adding events throughout the request handling process using the Symfony 2 event dispatcher.
+
+[The lesson](http://fabien.potencier.org/article/58/create-your-own-framework-on-top-of-the-symfony2-components-part-9)
