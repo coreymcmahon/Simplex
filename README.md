@@ -87,3 +87,9 @@ At this point we have a fully functioning MVC framework, built using the Symfony
 In this lesson we learn how to make our framework extensible by adding events throughout the request handling process using the Symfony 2 event dispatcher.
 
 [The lesson](http://fabien.potencier.org/article/58/create-your-own-framework-on-top-of-the-symfony2-components-part-9)
+
+
+## Part 10 - Caching Reqeuests
+For large scale web applications, one of the most important ways we can decrease server load is by caching responses. In Part 10 we learn how to add Caching to our framework.
+
+[The lesson](http://fabien.potencier.org/article/59/create-your-own-framework-on-top-of-the-symfony2-components-part-10)

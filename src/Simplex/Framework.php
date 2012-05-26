@@ -8,7 +8,7 @@ use Symfony\Component\Routing;
 use Symfony\Component\HttpKernel;
 use Symfony\Component\EventDispatcher;
 
-class Framework {
+class Framework implements HttpKernel\HttpKernelInterface {
 	protected $_matcher;
 	protected $_resolver;
 	protected $_dispatcher;
@@ -20,7 +20,7 @@ class Framework {
         $this->_dispatcher = $dispatcher;
 	}
 	
-	public function handle(Request $request)
+	public function handle(Request $request, $type = self::MASTER_REQUEST, $catch = true)
 	{
 		try {
 			$request->attributes->add($this->_matcher->match($request->getPathInfo()));
