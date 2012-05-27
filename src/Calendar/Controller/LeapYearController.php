@@ -19,13 +19,9 @@ class LeapYearController {
 	public function indexAction(Request $request, $year)
 	{
 		if ($this->_isLeapYear($year)) {
-			$response = new Response('Yes, this is a leap year! ' . rand());
-		} else {
-			$response = new Response('No, not a leap year. ' . rand());
+			return 'Yes, this is a leap year!';
 		}
 
-		$response->setTtl(10);
-
-		return $response;
+		return 'No, not a leap year.';
 	}
 }

@@ -29,7 +29,7 @@ class FrameworkTest extends \PHPUnit_Framework_TestCase
 		;
 		$resolver = $this->getMock('Symfony\Component\HttpKernel\Controller\ControllerResolverInterface');
 		
-		return new Framework($dispatcher, $matcher, $resolver);
+		return new Framework($dispatcher, $resolver);
 	}
 	
 	public function testControllerResponse()
@@ -50,7 +50,7 @@ class FrameworkTest extends \PHPUnit_Framework_TestCase
 		;
 		$resolver = new HttpKernel\Controller\ControllerResolver();
 
-		$framework = new Framework($dispatcher, $matcher, $resolver);
+		$framework = new Framework($dispatcher, $resolver);
 		
 		$response = $framework->handle(new Request());
 		
