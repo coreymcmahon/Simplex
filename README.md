@@ -93,3 +93,9 @@ In this lesson we learn how to make our framework extensible by adding events th
 For large scale web applications, one of the most important ways we can decrease server load is by caching responses. In Part 10 we learn how to add Caching to our framework.
 
 [The lesson](http://fabien.potencier.org/article/59/create-your-own-framework-on-top-of-the-symfony2-components-part-10)
+
+
+## Part 11 - Using an Events Driven Architecture
+In this lesson we refactor the code to make better use of the HttpKernel component and it's standard implementation which uses events to trigger routing.
+
+[The lesson](http://fabien.potencier.org/article/60/create-your-own-framework-on-top-of-the-symfony2-components-part-11)
