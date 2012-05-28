@@ -95,7 +95,13 @@ For large scale web applications, one of the most important ways we can decrease
 [The lesson](http://fabien.potencier.org/article/59/create-your-own-framework-on-top-of-the-symfony2-components-part-10)
 
 
-## Part 11 - Using an Events Driven Architecture
+## Part 11 - Using an Event Driven Architecture
 In this lesson we refactor the code to make better use of the HttpKernel component and it's standard implementation which uses events to trigger routing.
 
 [The lesson](http://fabien.potencier.org/article/60/create-your-own-framework-on-top-of-the-symfony2-components-part-11)
+
+
+## Part 12 - Introducing the Dependency Injection container
+In the final lesson we use the Symfony 2 dependency injection component to manage dependencies and configuration between the different components in our application.
+
+[The lesson](http://fabien.potencier.org/article/62/create-your-own-framework-on-top-of-the-symfony2-components-part-12)
